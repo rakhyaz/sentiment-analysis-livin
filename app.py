@@ -150,7 +150,7 @@ df, source_file, load_errors = load_dataset()
 # ---------------------------------------------------------
 # SIDEBAR NAVIGASI
 # ---------------------------------------------------------
-st.sidebar.title("📊 Menu")
+st.sidebar.title("Menu")
 page = st.sidebar.radio(
     "Pilih halaman",
     ["Dashboard", "Prediksi Sentimen"],
