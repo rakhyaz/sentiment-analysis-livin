@@ -171,7 +171,7 @@ else:
 # HALAMAN 1 — DASHBOARD
 # ===========================================================
 if page == "Dashboard":
-    st.title("📊 Dashboard Analisis Sentimen")
+    st.title("Dashboard Analisis Sentimen")
     st.caption("Ulasan Pengguna Aplikasi Livin' by Mandiri Tahun 2025")
 
     if df is None:
