@@ -272,7 +272,7 @@ if page == "Dashboard":
 # HALAMAN 2 — PREDIKSI SENTIMEN
 # ===========================================================
 else:
-    st.title("🔍 Prediksi Sentimen Ulasan")
+    st.title(" Prediksi Sentimen Ulasan")
     st.caption("Masukkan teks ulasan, sistem akan memprediksi sentimennya menggunakan Multinomial Naive Bayes")
 
     user_input = st.text_area(
