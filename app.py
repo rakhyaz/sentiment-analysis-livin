@@ -7,6 +7,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
+
 # ---------------------------------------------------------
 # KONFIGURASI HALAMAN
 # ---------------------------------------------------------
@@ -67,7 +68,7 @@ def remove_emoji(text):
     return emoji_pattern.sub(r"", text)
 
 
-def remove_symbols(text):
+def remove_symbols(text): 
     return re.sub(r"[^a-zA-Z0-9\s]", "", text)
 
 
@@ -171,8 +172,8 @@ else:
 # HALAMAN 1 — DASHBOARD
 # ===========================================================
 if page == "Dashboard":
-    st.title("Dashboard Analisis Sentimen")
-    st.caption("Ulasan Pengguna Aplikasi Livin' by Mandiri Tahun 2025")
+    st.title("Dashboard Analisis Sentimen Ulasan pengguna Aplikasi Livin' by Mandiri")
+    st.caption("Tahun 2025")
 
     if df is None:
         st.info(
