@@ -259,14 +259,6 @@ if page == "Dashboard":
             else:
                 st.write("-")
 
-        st.divider()
-        st.subheader("Contoh Data Ulasan")
-        preview_cols = [c for c in df.columns if c in
-                         ["content", "stopword removal", "score", sentiment_col]]
-        if preview_cols:
-            st.dataframe(df[preview_cols].head(20), use_container_width=True)
-        else:
-            st.dataframe(df.head(20), use_container_width=True)
 
 # ===========================================================
 # HALAMAN 2 — PREDIKSI SENTIMEN
