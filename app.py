@@ -265,7 +265,7 @@ if page == "Dashboard":
 # ===========================================================
 else:
     st.title(" Prediksi Sentimen Ulasan")
-    st.caption("Masukkan teks ulasan, sistem akan memprediksi sentimennya menggunakan Multinomial Naive Bayes")
+    st.caption("TEGUH teks ulasan, sistem akan memprediksi sentimennya menggunakan Multinomial Naive Bayes")
 
     user_input = st.text_area(
         "Tulis ulasan di sini:",
