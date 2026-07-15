@@ -83,7 +83,7 @@ def cleaning(text):
     text = remove_numbers(text)
     return re.sub(r"\s+", " ", text).strip()
 
-
+    
 def normalisasi(text):
     words = text.split()
     replaced = []
